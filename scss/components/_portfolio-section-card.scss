@@ -1,0 +1,42 @@
+.web-card {
+  position: relative;
+  height: 400px;
+  width: 300px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-brand-violet);
+
+  &__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 320px;
+    height: 100%;
+    max-height: 420px;
+    object-fit: cover;
+  }
+}
+
+.carousel-button {
+    display: block;
+    padding: 13px;
+    fill: var(--color-brand-light);
+    background-color: var(--color-brand-violet);
+    border: 2px solid var(--color-brand-violet);
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: 600;
+    transition: color 0.3s ease, transform 0.3s ease;
+
+    &:hover {
+    fill: var(--color-brand-violet);
+    background-color: transparent;
+    transform: scale(1.05);
+  }
+  }

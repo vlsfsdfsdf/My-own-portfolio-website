@@ -1,0 +1,29 @@
+.skills-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  gap: 40px;
+  border-radius: 25px;
+  background-color: var(--color-brand-shadow);
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 20px;
+    gap: 40px;
+    padding-bottom: 50px;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 380px;
+    padding: 18px;
+    border-radius: 25px;
+    box-shadow: var(--color-brand-night) 5px 10px 4px;
+    background-color: var(--color-brand-violet);
+  }
+}

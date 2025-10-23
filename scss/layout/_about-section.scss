@@ -1,0 +1,17 @@
+.about-section {
+  &__container {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+  }
+
+  &__card {
+    max-width: 350px;
+    padding: 10px 20px;
+    margin: 25px 20px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    background-color: var(--color-brand-violet);
+    box-shadow: var(--color-brand-night) 5px 10px 4px;
+  }
+}

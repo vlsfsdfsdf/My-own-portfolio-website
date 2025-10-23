@@ -1,0 +1,46 @@
+.header {
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    padding: 10px 60px;
+    background-color: var(--color-brand-shadow);
+    box-shadow: var(--color-brand-violet) 1px 6px 6px;
+  }
+
+  &__menu {
+    display: flex;
+    gap: 40px;
+    padding: 18px;
+    background-color: var(--color-brand-violet);
+    border-radius: 10px;
+    box-shadow: var(--color-brand-night) 5px 6px 4px;
+  }
+
+  &__menu-item {
+    color: var(--color-brand-night);
+  }
+
+  &__links:hover {
+    color: var(--color-brand-light);
+  }
+
+  &__logo {
+    fill: var(--color-brand-violet);
+  }
+
+  &__setings-btn {
+    position: relative;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    fill: var(--color-brand-violet);
+    transition: transform 1s ease;
+
+    &:hover {
+      transform: rotate(180deg);
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.hero-section {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 70px;
+  }
+
+  &__photo {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--color-brand-shadow);
+    box-shadow: var(--color-brand-violet) 5px 6px 6px;
+  }
+
+  &__main-container {
+    display: block;
+    justify-content: flex-start;
+    max-width: 445px;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    margin-left: 40px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: var(--color-brand-shadow);
+    box-shadow: var(--color-brand-violet) 5px 6px 6px;
+  }
+}

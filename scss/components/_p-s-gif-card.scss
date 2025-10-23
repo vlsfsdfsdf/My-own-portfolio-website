@@ -1,0 +1,15 @@
+.gif-card {
+  position: relative;
+  height: 200px;
+  width: 400px;
+
+  &__image {
+    position: absolute;
+    border-radius: 16px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: 10px;
+    background-color: var(--color-brand-violet);
+  }
+}

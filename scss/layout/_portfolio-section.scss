@@ -1,0 +1,71 @@
+.portfolio-section {
+ 
+  // main container
+  &__main-container {
+    fill: var(--color-brand-violet);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 20px;
+  }
+
+  // gif container
+
+  &__gif-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 25px;
+    width: 700px;
+    height: 565px;
+    background-color: var(--color-brand-night);
+    box-shadow: var(--color-brand-violet) 5px 8px 4px;
+  }
+
+  &__gif-card-list {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  // slider area
+
+  &__button {
+    display: flex;
+  }
+
+  &__list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    max-width: 300px;
+  }
+
+  &__slider {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+
+  &__container {
+    overflow: hidden;
+  }
+}
+
+.swiper-slide {
+  flex-direction: row;
+}
+
+.web-card-title {
+  padding-bottom: 50px;
+}
+
+.div {
+  padding: 20px;
+  padding-bottom: 50px;
+  border-radius: 25px;
+  background-color: var(--color-brand-night);
+  box-shadow: var(--color-brand-violet) 5px 8px 4px;
+}
