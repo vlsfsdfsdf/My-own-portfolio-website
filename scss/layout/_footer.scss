@@ -65,6 +65,8 @@
     cursor: pointer;
     font-weight: 600;
     transition: color 0.3s, transform 0.3s;
+    transform: translateY(100px);
+    transition: 1S ease;
 
     &:hover {
       color: var(--color-brand-violet);

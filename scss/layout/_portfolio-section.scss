@@ -1,5 +1,4 @@
 .portfolio-section {
- 
   // main container
   &__main-container {
     fill: var(--color-brand-violet);
@@ -52,6 +51,44 @@
   &__container {
     overflow: hidden;
   }
+
+   &__button {
+    display: block;
+    padding: 16px 16px;
+    color: var(--color-primary-light);
+    background-color: var(--color-brand-violet);
+    border: 2px solid var(--color-brand-violet);
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: color 0.3s, transform 0.3s;
+
+    &:hover {
+      color: var(--color-brand-violet);
+      background-color: transparent;
+      transform: scale(1.05);
+    }
+  }
+
+  &__title-button {
+    display: block;
+    padding: 16px 32px;
+    color: var(--color-primary-light);
+    background-color: var(--color-brand-violet);
+    border: 2px solid var(--color-brand-violet);
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: color 0.3s, transform 0.3s;
+    transform: translateY(100px);
+    transition: 1S ease;
+
+    &:hover {
+      color: var(--color-brand-violet);
+      background-color: transparent;
+      transform: scale(1.05);
+    }
+  }
 }
 
 .swiper-slide {
@@ -69,3 +106,9 @@
   background-color: var(--color-brand-night);
   box-shadow: var(--color-brand-violet) 5px 8px 4px;
 }
+
+.white {
+  color: var(--color-brand-light);
+}
+
+

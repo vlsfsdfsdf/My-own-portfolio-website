@@ -1,4 +1,8 @@
 .header {
+
+  &__title {
+    animation: slideFromLeft 1s ease 0.3s both;
+  }
   &__nav {
     display: flex;
     justify-content: space-between;
@@ -17,6 +21,7 @@
     background-color: var(--color-brand-violet);
     border-radius: 10px;
     box-shadow: var(--color-brand-night) 5px 6px 4px;
+    animation: slideFromRight 1s ease 0.3s both;
   }
 
   &__menu-item {
@@ -29,6 +34,7 @@
 
   &__logo {
     fill: var(--color-brand-violet);
+    animation: slideFromLeft 1s ease;
   }
 
   &__setings-btn {
@@ -38,6 +44,7 @@
     cursor: pointer;
     fill: var(--color-brand-violet);
     transition: transform 1s ease;
+    animation: slideFromRight 1s ease;
 
     &:hover {
       transform: rotate(180deg);

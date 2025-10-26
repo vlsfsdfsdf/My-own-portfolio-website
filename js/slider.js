@@ -17,3 +17,21 @@ const swiper = new Swiper(".swiper-container", {
     prevEl: ".carousel-button.prev",
   },
 });
+
+
+
+
+// FOR ANIMATION 
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    }
+  });
+});
+
+document.querySelectorAll(".animateRight").forEach((el) => observer.observe(el));
+document.querySelectorAll(".animateLeft").forEach((el) => observer.observe(el));
+document.querySelectorAll(".animateTop").forEach((el) => observer.observe(el));
+document.querySelectorAll(".animateBot").forEach((el) => observer.observe(el));

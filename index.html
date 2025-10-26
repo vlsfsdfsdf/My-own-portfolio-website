@@ -18,7 +18,7 @@
           <svg class="header__logo" height="60px" width="40px">
             <use href="./svg-image.svg#icon-Logo"></use>
           </svg>
-          <h1 class="accent">My-Portfolio</h1>
+          <h1 class="header__title accent">My-Portfolio</h1>
           <ul class="header__menu">
             <li class="header__menu-item">
               <a class="header__links" href="#about-section">About</a>
@@ -61,11 +61,11 @@
 
     <!-- About section -->
 
-    <section class="about-section section" id="about-section">
-      <h2 class="section-title centered">About me)</h2>
+    <section class="about-section animate section" id="about-section">
+      <h2 class="section-title animateTop centered">About me)</h2>
 
       <div class="about-section__container">
-        <div class="about-section__card">
+        <div class="about-section__card animateRight">
           <h3 class="centered">🎯 Main Description</h3>
           <p>
             My name is Vlad, an 18-year-old developer transitioning from motion
@@ -74,7 +74,7 @@
           </p>
         </div>
 
-        <div class="about-section__card">
+        <div class="about-section__card animateLeft">
           <h3>💻 Current Stack & Goals:</h3>
           <p>
             Building foundation with HTML, CSS, JavaScript, React, and SQL.
@@ -88,10 +88,10 @@
     <!-- Skills section -->
 
     <section class="skills-section section" id="skills-section">
-      <h2 class="section-title centered">My skills</h2>
+      <h2 class="section-title animateTop centered">My skills</h2>
 
       <div class="skills-section__container centered">
-        <article class="skills-section__card centered">
+        <article class="skills-section__card animateRight centered">
           <img
             class="card-image"
             src="./image/linux-svgrepo-com.svg"
@@ -105,7 +105,7 @@
           </p>
         </article>
 
-        <article class="skills-section__card centered">
+        <article class="skills-section__card animateTop centered">
           <div class="skill-logos centered">
             <img src="./image/html-5-svgrepo-com.svg" alt="Html" width="60px" />
             <img src="./image/css-3-svgrepo-com.svg" alt="Css" width="60px" />
@@ -118,7 +118,7 @@
           </p>
         </article>
 
-        <article class="skills-section__card centered">
+        <article class="skills-section__card animateLeft centered">
           <img src="./image/react-svgrepo-com.svg" alt="React" width="60px" />
           <h3>React</h3>
           <p>
@@ -127,7 +127,7 @@
           </p>
         </article>
 
-        <article class="skills-section__card centered">
+        <article class="skills-section__card animateRight centered">
           <img src="./image/sql-svgrepo-com.svg" alt="SQL" width="60px" />
           <h3>SQL</h3>
           <p>
@@ -136,7 +136,7 @@
           </p>
         </article>
 
-        <article class="skills-section__card centered">
+        <article class="skills-section__card animateLeft centered">
           <img
             src="./image/after-effects-svgrepo-com.svg"
             alt="After Effects"
@@ -156,12 +156,12 @@
     <section class="portfolio-section section" id="portfolio-section">
       <div class="container">
         <h2 class="section-title centered">
-          My&nbsp<span class="accent"
-            ><a href="https://github.com/vlsfsdfsdf">Github</a></span
-          >&nbspwith all my projects
+          <span class="animateRight">My</span>&nbsp
+            <span class="white"><button class="portfolio-section__title-button animateBot text" type="button">My Guthub</button></span>
+          &nbsp<span class="animateLeft">with all my projects</span>
         </h2>
         <div class="portfolio-section__main-container">
-          <div class="portfolio-section__gif-container">
+          <div class="portfolio-section__gif-container animateTop">
             <ul class="portfolio-section__gif-card-list">
               <li>
                 <h3 class="accent">
@@ -174,7 +174,7 @@
               <img class="gif-card__image" src="./image/Main.gif" />
             </article>
           </div>
-          <div class="div">
+          <div class="div animateBot">
             <h3 class="web-card-title accent">This is my firs website)</h3>
             <div class="portfolio-section__slider">
               <button
@@ -246,7 +246,7 @@
     <footer class="footer" id="footer">
       <address>
         <div class="footer__container">
-          <ul class="footer__menu centered">
+          <ul class="footer__menu centered animateRight">
             <li class="footer__menu-items">
               <a class="footer__links" href="#hero-section">Main</a>
             </li>
@@ -261,7 +261,7 @@
             </li>
           </ul>
 
-          <address class="footer__address">
+          <address class="footer__address animateTop">
             <ul class="address centered">
               <li class="address__items">
                 <h3 class="address__title accent">Contact me</h3>
@@ -279,9 +279,9 @@
             </ul>
           </address>
 
-          <button class="footer__button" type="button">My Guthub</button>
+          <button class="footer__button animateBot" type="button">My Guthub</button>
 
-          <svg class="footer__logo" height="150px" width="80px">
+          <svg class="footer__logo animateLeft" height="150px" width="80px">
             <use href="./svg-image.svg#icon-Logo"></use>
           </svg>
         </div>

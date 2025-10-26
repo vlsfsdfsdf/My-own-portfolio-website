@@ -24,19 +24,21 @@
 }
 
 .carousel-button {
-    display: block;
-    padding: 13px;
-    fill: var(--color-brand-light);
-    background-color: var(--color-brand-violet);
-    border: 2px solid var(--color-brand-violet);
-    border-radius: 50%;
-    cursor: pointer;
-    font-weight: 600;
-    transition: color 0.3s ease, transform 0.3s ease;
+  display: block;
+  padding: 13px;
+  fill: var(--color-brand-light);
+  background-color: var(--color-brand-violet);
+  border: 2px solid var(--color-brand-violet);
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+  transition: color 0.3s ease, transform 0.3s ease;
 
-    &:hover {
+  &:hover {
     fill: var(--color-brand-violet);
     background-color: transparent;
     transform: scale(1.05);
   }
-  }
+}
+
+
